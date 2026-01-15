@@ -1,0 +1,9 @@
+# @package _group_
+_target_: planning.interactive_planner.InteractivePlanner
+
+planner_name: "interactive"
+# 这里继承一些基础参数，确保 active-gs 不会报错
+visualize: true
+replanning_steps: 10
+n_steps: 2000  # 我们可以给多一点步数，方便你多玩一会
+

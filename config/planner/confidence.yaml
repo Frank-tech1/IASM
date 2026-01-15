@@ -1,0 +1,21 @@
+# @package _group_
+_target_: planning.interactive_planner.InteractivePlanner
+planner_name: confidence
+type: confidence
+
+# --- 几何参数 ---
+radius: 0.5
+init_pose: [[0, 0, 1, 0], [-1, 0, 0, 0], [0, -1, 0, 0], [0, 0, 0, 1]]
+robot_size: 0.3
+
+# --- 采样参数 ---
+pitch_angle: null
+sample_num: 100
+max_roi_sample_num: 30
+use_confidence: true
+path_length_factor: 0.5
+
+# --- 规划器参数 ---
+render_ratio: 0.25
+explore_weight: 1000.0
+n_steps: 2000
