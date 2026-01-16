@@ -731,6 +731,8 @@ class GaussianRenderer:
         resolution,
         device,
         render_masks=None,
+        gaussians_semantic=None,
+        gaussians_dynamic=None,
     ):
         self.device = device
         (
