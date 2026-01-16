@@ -620,4 +620,3 @@ class VoxelMap:
         return entropy
 
  
-
